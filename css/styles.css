@@ -1,0 +1,294 @@
+
+
+
+p,h3,h2,h4,a,h5{
+    font-family:'IBM Plex Sans Arabic', sans-serif;
+    text-align:center;
+}
+
+h3{
+text-align: center;
+}
+.portfoliohead{
+    margin-top:30px;
+    justify-content: center;
+}
+/* .maincontent h2{
+    margin-left:40%;
+} */
+main p{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+
+.maindiv{
+    border: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:30px;
+}
+
+/* .maincontent{
+    display:flex;
+    flex-direction: column;
+} */
+.footer{
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footp{
+    margin-left:40px;
+    margin-right: 40px;
+}
+.portfolio{
+    margin-top:40px;
+}
+
+ 
+
+
+ .images{
+    /* align-items: center; */
+    width:90%;
+    margin: 0 auto;
+    /* margin: auto; */
+     /* margin-left: 30%; */
+} 
+
+
+
+
+
+
+
+    .about{
+        border: none;
+        display: flex;
+        flex-direction:column;
+    }
+    
+
+.main-intro{
+    margin-right:50px;
+}
+
+
+
+.tablet-footer{
+    display:none ;
+}
+.first{
+    text-align: center;
+}
+
+.headname{
+    display: block;
+}
+.links{
+    display: block;
+}
+.top-links ul{
+    list-style: none;
+} .top-links ul li{
+   margin-bottom: 10px;
+}
+.top-links ul li a{
+    text-decoration: none;
+}
+
+.maindiv p{
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    gap:20px;
+
+
+}
+
+.heading1{
+    text-align: center;
+}
+.mobile-footer{
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (min-width:768px) {
+    .tablet-footer{
+        display:flex;
+        flex-wrap: wrap;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+    /* .images{
+        width:95%;
+        display:inline-block;
+        margin-left:20px;
+    } */
+     
+
+     .maindiv p{
+         justify-content: center;
+     }
+     .firstdiv{
+        display:flex;
+        flex-direction: row;
+       gap: 30px; 
+       
+    } 
+    .main-intro{
+
+        display:flex;
+    }
+
+     .row{
+        display:flex;
+      gap:30px;
+    } 
+.portfolio{
+    display:flex;
+    flex-wrap: wrap;
+}
+.maindiv{
+    flex:1 45%;
+}
+
+    /* .row1{
+       display: flex;
+       flex-direction: column;
+    } */
+    .anchor{
+        margin-right: 20px;
+        margin-bottom:20px;
+    }
+   
+     .h5footer{
+         margin-right: auto;
+     }
+     .tablet-div{
+         align-items: flex-start;
+     }
+     .divanchor{
+         align-items: flex-end;
+     }
+    
+    
+   /* .maindiv{
+
+       width:350px;
+       gap:20px;
+   } */
+.intro{
+   display: flex;
+   align-items: flex-end;
+  
+}
+.about{
+        
+    clear: both;
+    flex-direction: row-reverse;
+}
+  .me{
+    
+    height:auto;
+    width:49%;
+      margin-left:50px;
+     justify-content: right;
+ } 
+ .mobile-footer{
+    display:none;
+}
+
+ .top-links{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    z-index:2; 
+} 
+
+
+.top-links ul, .divanchor{
+    list-style: none;
+    
+}
+
+
+.top-links ul li, .finalfooter li{
+    display: inline-block;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.finalfooter li a{
+    text-decoration: none;
+}
+
+.home{
+    margin:auto;
+}
+
+
+.h5footer{
+    order:-1;
+
+}
+.name{
+    text-align: center;
+}
+
+ h2{
+    text-align: center;
+} 
+.heading1{
+    text-align: center;
+}
+.footp{
+    text-align: center;
+}
+.main-intro{
+    margin-left:43%;
+}
+}
+
+
+@media screen and (min-width:1024px) {
+.top-links{
+    border: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+      .section1{
+          display:flex;
+          flex-direction: row;
+      }
+    
+      .portfolio{
+          display: flex;
+          flex-wrap:wrap;
+      }
+   
+    .maindiv{
+        flex:1 30%;
+    }
+   
+    
+
+    
+    
+     .headname{
+         display: flex;
+         justify-self: left;
+     }
+
+     .ul1{
+         display: flex;
+     }
+
+
+
+}
