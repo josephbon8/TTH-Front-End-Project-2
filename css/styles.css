@@ -74,7 +74,8 @@ main p{
     
 
 .main-intro{
-    margin-right:50px;
+    margin:0 auto;
+    display:inherit;
 }
 
 
@@ -250,9 +251,7 @@ main p{
 .footp{
     text-align: center;
 }
-.main-intro{
-    margin-left:43%;
-}
+
 }
 
 
